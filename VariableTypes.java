@@ -9,8 +9,10 @@ public class VariableTypes {
         System.out.println("Hello World: " + sum);
         System.out.println(sum);
 
-
+        scanner.close();
     }
+    
 }
+
 
 

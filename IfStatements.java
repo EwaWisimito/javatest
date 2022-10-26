@@ -44,5 +44,6 @@ public class IfStatements {
             System.out.print("Jednorożec");
 
         }
+        scanner.close();
     }
 }

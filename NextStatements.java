@@ -38,5 +38,6 @@ public class NextStatements {
             System.out.print("Jednorożec");
 
         }
+        scanner.close();
     }
 }
