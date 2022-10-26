@@ -17,26 +17,20 @@ public class NextStatements {
         if(operation == '+'){
             System.out.println("wynik dodawania to: " + (a+b));
             
-        }
-         else if(operation == '-'){
+        }else if(operation == '-'){
             System.out.println("wynik odejmowania to: " + (a-b));
             
-        }
-        else if(operation == '*'){
+        }else if(operation == '*'){
             System.out.println("wynik mnożenia to: " + (a*b));
            
-        }
-        else if(operation == '/'){
+        }else if(operation == '/'){
             if(b!=0){
                 System.out.println("wynik dzielenia to: " + ((1.0*a/b)));
-            } 
-            else{
+            }else{
                 System.out.println("Tak nie wolno!");
             }
-        }
-        else{
+        }else{
             System.out.print("Jednorożec");
-
         }
         scanner.close();
     }
