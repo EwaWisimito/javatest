@@ -7,9 +7,16 @@ public class Loops2 {
 
         System.out.print("Wpisz liczbę: ");
         int a = scanner.nextInt();
+        int i= a;
 
-     for(int i= a; i<=50; i++){
+     while( i!=50 ){
+        if(i<50){
         System.out.println(i);
+        i++;}else{
+            System.out.println(i);
+        i--;
+        }
+
      }
 
        
